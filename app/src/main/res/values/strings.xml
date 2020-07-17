@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IndiPick</string>
+    <string name="category_prompt">Select Category</string>
+    <string name="Category">Category</string>
+</resources>

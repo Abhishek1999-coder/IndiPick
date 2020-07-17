@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab"
+    android:id="@+id/click"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+   <!-- <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:background="#2929a3"
+        app:titleTextColor="#FFFFFF"
+        android:layout_height="30dp"/>
+-->
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Brands need our support!"
+        android:textColor="#000000"
+        android:fontFamily="@font/calibri"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        android:text="IndiPick"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#CA8622"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enables you with complete details of Brands and Products in Indian stores."
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/calibri"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy freedom"
+        android:textColor="#04146A"
+        android:textSize="26sp"
+        android:fontFamily="@font/calibri"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To choose Brands"
+        android:textColor="#FF04146A"
+        android:fontFamily="@font/calibri"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With right information"
+        android:textColor="#FF04146A"
+        android:fontFamily="@font/calibri"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/txt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indipic doesnot promote any discriminatory advertisement against any country, ethnicity Brand"
+        android:padding="40dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/calibri"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txt_8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/continuedesign"
+        android:fontFamily="@font/calibri"
+        android:text="      Click here to continue......    "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
+
